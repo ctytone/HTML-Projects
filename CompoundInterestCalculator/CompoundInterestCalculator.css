@@ -1,0 +1,44 @@
+/* 
+ * Written by Christopher Tytone
+ */
+
+/* 
+ * # is used to target an element by its ID
+ */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#interest-calculator {
+    background-color: whitesmoke;
+    border: 5px solid lightgray;
+    width: 400px;
+    height: 550px;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 
+ * . is used to target an element by its class within the element with the ID
+ */
+#interest-calculator .input-block {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+#calculate-button {
+    width: 175px;
+    height: 50px;
+    font-size: 1em;
+}
+
+#result {
+    font-size: 2em;
+}
